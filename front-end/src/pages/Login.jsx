@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useContext } from "react";
-import { login as loginAPI } from '../services/AuthAPI';  // renamed to avoid conflict
+import { login as loginAPI  } from '../services/AuthAPI' // renamed to avoid conflict
 import { useNavigate, Link } from "react-router-dom";
 import { AuthContext } from '../context/AuthContext';
 import { MdOutlineMail } from "react-icons/md";
